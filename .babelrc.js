@@ -1,9 +1,7 @@
 module.exports = api => {
   const env = api.env();
-
   let dev = false;
   let modules;
-
   switch (env) {
     case 'docs':
     case 'test':
